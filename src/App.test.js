@@ -3,7 +3,7 @@ import App from './App';
 
 test('internet is present', () => {
   render(<App />);
-  const internet = screen.getByText('internet');
+  const internet = screen.getByText(/internet/i);
   expect(internet).toBeInTheDocument();
 });
 
