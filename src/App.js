@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './beer.jpg';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Look! An internet!
+          Kyle deserves a beer!
         </p>
       </header>
     </div>
