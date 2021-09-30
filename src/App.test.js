@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('internet is present', () => {
+test('beer is present', () => {
   render(<App />);
-  const internet = screen.getByText(/internet/i);
-  expect(internet).toBeInTheDocument();
+  const beer = screen.getByText(/beer/i);
+  expect(beer).toBeInTheDocument();
 });
 
 // test('renders learn react link', () => {
